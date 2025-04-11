@@ -18,10 +18,8 @@ client.DefaultRequestHeaders.UserAgent.ParseAdd("CSharpApp");
 
 try
 {
-    
     HttpResponseMessage response = await client.GetAsync(url);
 
-    
     if (!response.IsSuccessStatusCode)
     {
         Console.WriteLine($"Erro ao buscar atividades: {response.StatusCode}");
@@ -40,14 +38,12 @@ try
     // Desserializa o JSON em uma lista de objetos GitHubEvent
     List<GitHubEvent>? events = JsonSerializer.Deserialize<List<GitHubEvent>>(json, options);
 
-    // Verifica se não há eventos ou se a lista está vazia
     if (events == null || events.Count == 0)
     {
         Console.WriteLine("Nenhuma atividade encontrada.");
         return;
     }
 
-    // Itera sobre os eventos e exibe uma descrição de cada um
     foreach (var ev in events)
     {
         Console.WriteLine(ev.GetDescription());
@@ -55,7 +51,6 @@ try
 }
 catch (Exception ex)
 {
-    // Captura e exibe erros que possam ocorrer durante a execução
     Console.WriteLine($"Erro: {ex.Message}");
 }
 
@@ -66,9 +61,8 @@ public class GitHubEvent
     public string Type { get; set; } // Tipo do evento (ex.: PushEvent, IssuesEvent)
 
     [JsonPropertyName("repo")]
-    public GitHubRepo Repo { get; set; } // Repositório associado ao evento
+    public GitHubRepo Repo { get; set; }
 
-    // Retorna uma descrição amigável do evento com base no tipo
     public string GetDescription()
     {
         return Type switch
