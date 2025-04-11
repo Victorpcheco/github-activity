@@ -1,0 +1,14 @@
+C:\Projects\Dotnet\GithubActivityCLI\bin\Debug\net9.0\GithubActivityCLI.exe
+C:\Projects\Dotnet\GithubActivityCLI\bin\Debug\net9.0\GithubActivityCLI.deps.json
+C:\Projects\Dotnet\GithubActivityCLI\bin\Debug\net9.0\GithubActivityCLI.runtimeconfig.json
+C:\Projects\Dotnet\GithubActivityCLI\bin\Debug\net9.0\GithubActivityCLI.dll
+C:\Projects\Dotnet\GithubActivityCLI\bin\Debug\net9.0\GithubActivityCLI.pdb
+C:\Projects\Dotnet\GithubActivityCLI\obj\Debug\net9.0\GithubActivityCLI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Dotnet\GithubActivityCLI\obj\Debug\net9.0\GithubActivityCLI.AssemblyInfoInputs.cache
+C:\Projects\Dotnet\GithubActivityCLI\obj\Debug\net9.0\GithubActivityCLI.AssemblyInfo.cs
+C:\Projects\Dotnet\GithubActivityCLI\obj\Debug\net9.0\GithubActivityCLI.csproj.CoreCompileInputs.cache
+C:\Projects\Dotnet\GithubActivityCLI\obj\Debug\net9.0\GithubActivityCLI.dll
+C:\Projects\Dotnet\GithubActivityCLI\obj\Debug\net9.0\refint\GithubActivityCLI.dll
+C:\Projects\Dotnet\GithubActivityCLI\obj\Debug\net9.0\GithubActivityCLI.pdb
+C:\Projects\Dotnet\GithubActivityCLI\obj\Debug\net9.0\GithubActivityCLI.genruntimeconfig.cache
+C:\Projects\Dotnet\GithubActivityCLI\obj\Debug\net9.0\ref\GithubActivityCLI.dll
